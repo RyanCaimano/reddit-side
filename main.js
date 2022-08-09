@@ -7,8 +7,8 @@ $('button').on('click', function () {
   removeButton.innerHTML = 'remove';
   removeButton.id = 'oneId';
 
-  var $postsParagraph = $('.posts').append("<p id='someId'>");
-  var $postSpan = $('p').append('<span>');
+  var $postsParagraph = $('.posts').append("<div id='someId'>");
+  var $postSpan = $('div').append('<span>');
   var $remove = $('span').append(removeButton);
   var $sent = $('span').append(both);
   var $HR = $('span').append('<hr>');
